@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16.3)
 
 project(
-   VirtualECU_AndroidSamsungUbuntu_LATEST.out
+   VW_GatewayECU_InfineonTriCore_Windows11_LATEST.out
    VERSION 0.1
 )
 
@@ -20,7 +20,7 @@ add_definitions(
 
 
 add_executable(
-   VirtualECU_AndroidSamsungUbuntu_LATEST.out
+   VW_GatewayECU_InfineonTriCore_Windows11_LATEST.out
    source/SmbLnk2_CfgGen/CfgAdc.cpp
    source/SmbLnk2_CfgGen/CfgBswM.cpp
    source/SmbLnk2_CfgGen/CfgCanIf.cpp
@@ -123,7 +123,7 @@ add_executable(
 )
 
 target_include_directories(
-   VirtualECU_AndroidSamsungUbuntu_LATEST.out PUBLIC
+   VW_GatewayECU_InfineonTriCore_Windows11_LATEST.out PUBLIC
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_common"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CompilerAbstractionGNU"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CfgGen"
